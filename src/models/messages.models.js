@@ -9,7 +9,8 @@ const Messages = db.define("messages",{
   },
   userId:{
     type:DataTypes.INTEGER,
-    allowNull:false
+    allowNull:false,
+    field:"user_id"
   },
   message:{
     type:DataTypes.TEXT,

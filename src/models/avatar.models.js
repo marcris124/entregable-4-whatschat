@@ -14,6 +14,9 @@ const Avatar = db.define("avatars",{
 
 
 
-})
+},{
+  timestamps:false
+}
+)
 
 module.exports = Avatar
